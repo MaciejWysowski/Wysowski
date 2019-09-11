@@ -1,0 +1,50 @@
+.boxLogo{
+    height:61em; 
+    background-size:cover;
+    width:auto;
+    background-image:url('../../images//abstract-air-conditioner-aircon-rotated.jpg');
+    background-position:50% 100%;
+    background-attachment: fixed;
+  }
+
+.aboutMe {
+  margin-right: 90px;
+  margin-top: 70px;
+  float: right;
+  cursor: pointer;
+  font-family: 'Vogue';
+  color: rgb(138, 133, 130);
+  opacity:0.5;
+  font-size: 50px;
+}
+
+.timeLine{
+  margin-left: 90px;
+  margin-top:70px;
+  float:left;
+  cursor: pointer;
+  font-family: 'Vogue';
+  color: rgb(138, 133, 130);
+  opacity:0.5;
+  font-size: 50px;
+}
+
+.aboutMe:hover{
+  opacity:1;
+  -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+}
+
+.timeLine:hover{
+  opacity:1;
+  -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+}
+
+@font-face {
+  font-family: Vogue;
+  src: url(../../images/Vogue.ttf);
+}
+

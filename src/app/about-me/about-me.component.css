@@ -1,0 +1,74 @@
+.aboutMe
+{
+    height:62.5em; 
+    background-size:cover;
+    width:auto;
+    background-image:url('../../../images/AboutMe-Background-v1.2.jpg');
+    background-position:50% 50%;
+}
+
+.presentation {
+    font-family: Leelawadee UI;
+    display: inline-block;
+
+    margin-top:100px;
+    margin-left:165px;
+}
+
+.presentation-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(35, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 500;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+    color: aliceblue
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: rgb(189, 125, 8); 
+    }
+}
+
+.left-column{
+    float:left;
+    width:800px;
+    margin-left: 100px;
+    margin-top: 200px;  
+}
+.right-column{
+    float:right;
+    width:800px;
+    margin-right: 100px;
+    margin-top: 200px;  
+}
+
+.column-text{
+    font-size: 30px;
+    font-weight: 500;
+    color: aliceblue;
+    font-family: Leelawadee UI;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+  }

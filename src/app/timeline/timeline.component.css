@@ -1,0 +1,12 @@
+.timeline
+{
+    height:61em; 
+    background-size:cover;
+    width:auto;
+    background-image:url('../../../images/AboutMeBackground.jpg');
+    background-position:50% 50%;
+}
+
+.timeline-settings{
+    padding-top: 250px;
+}
