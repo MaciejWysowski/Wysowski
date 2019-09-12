@@ -1,12 +1,13 @@
 .timeline
 {
-    height:61em; 
+    height:105vh;
+    width: 100%;
     background-size:cover;
-    width:auto;
     background-image:url('../../../images/AboutMeBackground.jpg');
     background-position:50% 50%;
+    background-attachment: auto;
 }
 
 .timeline-settings{
-    padding-top: 250px;
+    padding-top: 15%;
 }

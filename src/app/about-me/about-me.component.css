@@ -1,18 +1,18 @@
 .aboutMe
 {
-    height:62.5em; 
+    height:105vh;
+    width: 100%;
     background-size:cover;
-    width:auto;
     background-image:url('../../../images/AboutMe-Background-v1.2.jpg');
     background-position:50% 50%;
+    background-attachment: auto;
 }
 
 .presentation {
     font-family: Leelawadee UI;
     display: inline-block;
-
-    margin-top:100px;
-    margin-left:165px;
+    margin-top:5%;
+    margin-left:8%;
 }
 
 .presentation-text {
@@ -21,8 +21,7 @@
   	letter-spacing: 2px;
  	animation: typing 5s steps(35, end), blink .75s step-end infinite;
     white-space: nowrap;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 2vw;
     border-right: 4px solid orange;
     box-sizing: border-box;
     color: aliceblue
@@ -48,20 +47,19 @@
 
 .left-column{
     float:left;
-    width:800px;
-    margin-left: 100px;
-    margin-top: 200px;  
+    width:40%;
+    margin-left: 5%;
+    margin-top: 10%; 
 }
 .right-column{
     float:right;
-    width:800px;
-    margin-right: 100px;
-    margin-top: 200px;  
+    width:40%;
+    margin-right: 5%;
+    margin-top: 10%;  
 }
 
 .column-text{
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 1.5vw;
     color: aliceblue;
     font-family: Leelawadee UI;
 }
@@ -70,5 +68,5 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90px;
+    width: 4.5vw;
   }
